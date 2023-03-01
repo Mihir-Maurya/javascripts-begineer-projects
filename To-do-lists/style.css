@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    
+}
+#input-text{
+    width: 300px;
+    padding: 0.5em;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color:azure;
+}
+#input-text::placeholder{
+    opacity: 0.3;
+}
+
+.list-item {
+    margin: 10px 0;
+   background-color: aquamarine;
+    padding: 1em 0.5em;
+    font-size: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.fa-square-check{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.fa-trash{
+    position: absolute;
+    right: 32px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: red;
+    cursor: pointer;
+}
+
+.checked{
+    text-decoration: line-through;
+    color: rgb(188, 187, 187);
+}
+
